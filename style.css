@@ -1,0 +1,42 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-custom {
+  background-color: #333;
+}
+
+.navbar-custom .nav-link {
+  color: #add8e6;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #ffffff;
+}
+
+.header-box {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  background-color: #00bfff;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
+.content-container {
+  background-color: #fff;
+  padding-top: 100px;
+  min-height: calc(100vh - 50px);
+}
+
+.footer-bar {
+  background-color: #00bfff;
+  height: 20px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
