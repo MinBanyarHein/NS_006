@@ -1,8 +1,6 @@
-body,
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+#first-nav {
+  background-color: #333;
+  color: #add8e6;
 }
 
 .navbar-custom {
@@ -27,15 +25,13 @@ html {
   z-index: 1;
 }
 
-.content-container {
-  background-color: #fff;
-  padding-top: 100px;
-  min-height: calc(100vh - 50px);
+#sec-nav {
+  padding-left: 300px;
 }
 
 .footer-bar {
   background-color: #00bfff;
-  height: 20px;
+  height: 70px;
   width: 100%;
   position: absolute;
   bottom: 0;
